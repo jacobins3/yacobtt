@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Research Group</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Previous non-footer styles remain the same */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Keep all existing styles until footer */
+        [Previous styles...]
+
+        /* Updated footer styles to match home page */
+        .footer {
+            background-color: rgb(4, 14, 77);
+            color: white;
+            padding: 15px 40px;
+            margin-top: auto;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .footer-columns {
+            display: flex;
+            gap: 60px;
+            flex: 2;
+        }
+
+        .footer-section {
+            flex: 1;
+        }
+
+        .footer-section h2 {
+            color: white;
+            font-size: 18px;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #ccc;
+        }
+
+        .address {
+            color: white;
+            line-height: 1.4;
+            margin-bottom: 12px;
+        }
+
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+            line-height: 1.4;
+        }
+
+        .logo-section {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .logo-section img {
+            max-width: 30%;
+            object-fit: auto;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 10px;
+            font-size: 12px;
+            color: white;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .footer-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .footer-columns {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .logo-section {
+                justify-content: center;
+            }
+
+            .logo-section img {
+                max-width: 30%;
+            }
+
+            .footer {
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Keep existing nav and publications content -->
+    [Previous content remains the same until footer]
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-columns">
+                <div class="footer-section">
+                    <h2>GET IN TOUCH</h2>
+                    <div class="address">
+                        Chulalongkorn University<br>
+                        Pathum Wan, Wang Mai<br>
+                        10330 Bangkok - Thailand
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h2>Find Me</h2>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/yacob-t-tesfaldet-929521151/" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.co.th/citations?user=HSXZDDkAAAAJ&hl=en" title="Google Scholar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="https://orcid.org/0000-0002-3763-6913" title="ORCID">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                        <a href="https://github.com/jacobins3" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h2>EAU LINKS</h2>
+                    <a href="http://www.iphsm.grad.chula.ac.th/">Hazardous Substance and Environmental Management</a>
+                    <a href="https://www.chula.ac.th/en/">Chulalongkorn University</a>
+                </div>
+            </div>
+
+            <div class="logo-section">
+                <img src="C:\Users\user\OneDrive - Chulalongkorn University\Research Idea\My Website\images\chula.png" 
+                alt="EAU" class="eau-logo">
+            </div>
+        </div>
+        <div class="copyright">
+            © 2024 Yacob T. Tesfaldet
+        </div>
+    </footer>
+</body>
+</html>
+
+   <ul>
+                    <li>University instructor with extensive experience.</li>
+                    <li>Strong organizational and administrative skills.</li>
+                    <li>Created lesson materials, visuals, and digital presentations.</li>
+                    <li>Directed students in performing and completing assigned tasks.</li>
+                    <li>Completed administrative and research duties as required by professors.</li>
+                    <li>Organized various class presentations and developed new course materials.</li>
+                    <li>Mentored students through office hours and one-on-one communication.</li>
+                    <li>Checked assignments, proctored tests, and graded according to university standards.</li>
+                    <li>Conducted small group teaching sessions focused on specific coursework segments.</li>
+                    <li>Supervised and participated in practical laboratory work and geological field trip activities.</li>
+                </ul>

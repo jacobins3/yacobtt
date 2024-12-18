@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Research Group</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav-bar {
+            background-color: rgb(4, 14, 77);
+            padding: 15px 0;
+            width: 100%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-links {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: clamp(12px, 1.5vw, 14px);
+            font-weight: 500;
+            transition: color 0.3s;
+            padding: 5px 10px;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            flex: 1;
+        }
+
+        .publications {
+            margin-top: 40px;
+        }
+
+        .publications-nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .publications-nav span {
+            margin: 0 5px;
+            font-weight: bold;
+        }
+
+        .publication-year {
+            font-size: 24px;
+            color: #050505;
+            margin: 30px 0 20px;
+        }
+
+        .publication-entry {
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .publication-entry strong {
+            color: #050606;
+        }
+
+        .footer {
+            background-color: rgb(4, 14, 77);
+            color: white;
+            padding: 15px 40px;
+            margin-top: auto;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .footer-columns {
+            display: flex;
+            gap: 60px;
+            flex: 2;
+        }
+
+        .footer-section {
+            flex: 1;
+        }
+
+        .footer-section h2 {
+            color: white;
+            font-size: 18px;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #ccc;
+        }
+
+        .address {
+            color: white;
+            line-height: 1.4;
+            margin-bottom: 12px;
+        }
+
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+            line-height: 1.4;
+        }
+
+        .logo-section {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .logo-section img {
+            max-width: 15%;
+            object-fit: auto;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 10px;
+            font-size: 12px;
+            color: white;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .footer-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .footer-columns {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .logo-section {
+                justify-content: center;
+            }
+
+            .logo-section img {
+                max-width: 30%;
+            }
+
+            .footer {
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-links">
+            <a href="home.html">HOME</a>
+            <a href="research.html">RESEARCH</a>
+            <a href="publications.html">PUBLICATIONS</a>
+            <a href="teaching.html">TEACHING</a>
+            <a href="contact.html">CONTACT ME</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="publications">
+            <h1>Journal Articles</h1>
+            <div class="publication-year">2024</div>
+
+            <div class="publication-entry">
+            Tareefa AlSumaiti, M. M. Yagoub, Yacob T, Tesfaldet, Naeema Alhosani, Subraelu Pakam. 
+            “Integration of Building Age into Flood Hazard Mapping: A Case Study of Al Ain City, United Arab Emirates”.
+             Water. DOI: <a href="https://doi.org/10.3390/w16172408" target="_blank">10.3390/w16172408</a> 
+            </div>
+            <div class="publication-entry">
+                M. M. Yagoub, Tareefa AlSumaiti, Naeema Alhosani, Marwan Elmubarak, Othmane Kortbi, Yacob T, Tesfaldet, Mohamed Al Namani, Sarah R Aldhanhani.
+                 “Potential of using groceries in disasters/pandemics management: case of Al Ain City, UAE”. Cogent Business & Management. 
+                 DOI: <a href="https://doi.org/10.1080/23311975.2024.2307639" target="_blank">10.1080/23311975.2024.2307639</a>
+            </div>
+            <div class="publication-entry">
+                M. M. Yagoub, Yacob T. Tesfaldet, Tareefa AlSumaiti, Naeema Al Hosani, Marwan G. Elmubarak.
+                “Estimating population density using open-access satellite images and geographic information system: Case of Al Ain city, UAE”. 
+                Remote Sensing Applications: Society and Environment.  
+                DOI: <a href="https://doi.org/10.1016/j.rsase.2023.101122" target="_blank">10.1016/j.rsase.2023.101122</a>
+            </div>
+
+            <div class="publication-year">2023</div>
+
+            <div class="publication-entry">
+                Nji T. Ndeh and Yacob T. Tesfaldet, Oluseye Oludoye. 
+                “Bibliometric analysis of the incidence of non-Covid respiratory disease Under NPI conditions during the pandemic”. 
+                Journal of Applied Life Sciences and Environment. 
+                DOI: <a href="https://doi.org/10.46909/alse-562094" target="_blank">10.46909/alse-562094</a> 
+            </div>
+            <div class="publication-entry">
+                M. M. Yagoub, Tareefa AlSumaiti, Yacob T. Tesfaldet, Khaled AlArfati, Maythaa Alraeesi, Mariam Eid Alketbi.
+                “Integration of Analytic Hierarchy Process (AHP) and Remote Sensing to Assess Threats to Preservation of the Oases: Case of Al Ain, UAE”. Land.   
+                 DOI: <a href="https://doi.org/10.3390/land12071269" target="_blank">10.3390/land12071269</a>
+            </div>
+            <div class="publication-entry">
+                Yacob T. Tesfaldet, Penradee Chanpiwat.
+                “The effects of meteorology and biomass burning on urban air quality: The case of Bangkok”. 
+                Urban Climate.   
+                DOI: <a href="https://doi.org/10.1016/j.uclim.2023.101441" target="_blank">10.1016/j.uclim.2023.101441</a>
+            </div>
+            <div class="publication-entry">
+                Anna Diem, Yacob T. Tesfaldet, Taly Hocherman, Vineeta Hoon, Karin Zijlemans. 
+                “Marine litter in the Red Sea: Status and policy implications”. 
+                Marine Pollution Bulletin.    
+                DOI: <a href="https://doi.org/10.1016/j.marpolbul.2022.114495" target="_blank">10.1016/j.marpolbul.2022.114495</a>
+            </div>
+            
+            <div class="publication-year">2022</div>
+
+            <div class="publication-entry">
+                M. M. Yagoub, Yacob T. Tesfaldet, Marwan G. Elmubarak, Naeema Al Hosani. 
+                “Extraction of Urban Quality of Life Indicators Using Remote Sensing and Machine Learning: The Case of Al Ain City, United Arab Emirates (UAE)”. 
+                ISPRS International Journal of Geo-information.  
+                DOI: <a href="https://doi.org/10.3390/ijgi11090458" target="_blank">10.3390/ijgi11090458</a> 
+            </div>
+            <div class="publication-entry">
+                Yacob T. Tesfaldet, Nji T. Ndeh.
+                “Public face masks wearing during the COVID-19 pandemic: A comprehensive analysis is needed for potential implications”. 
+                Journal of Hazardous Materials Advances. 
+                 DOI: <a href="https://doi.org/10.1016/j.hazadv.2022.100125" target="_blank">10.1016/j.hazadv.2022.100125</a>
+            </div>
+            <div class="publication-entry">
+                Nji T. Ndeh and Yacob T. Tesfaldet, Jariya Budnard, Pavadee Chuaicharoen.
+                 “The secondary outcome of public health measures amidst the COVID-19 pandemic in the spread of other respiratory infectious diseases in Thailand”. 
+                 Travel Medicine and Infectious Disease. 
+  
+                DOI: <a href="https://doi.org/10.1016/j.tmaid.2022.102348" target="_blank">10.1016/j.tmaid.2022.102348</a>
+            </div>
+            <div class="publication-entry">
+                Yacob T. Tesfaldet, Nji T. Ndeh. 
+                “Assessing face masks in the environment by means of the DPSIR framework”. Science of the Total Environment. 
+                DOI: <a href="https://doi.org/10.1016/j.scitotenv.2021.152859" target="_blank">10.1016/j.scitotenv.2021.152859</a>
+            </div>
+
+            <div class="publication-year">2021</div>
+
+            <div class="publication-entry">
+                Yacob T. Tesfaldet, Nji T. Ndeh, Jariya Budnard, Patamavadee Treeson.
+                 “Assessing face mask littering in urban environments and policy implications: The case of Bangkok”. 
+                 Science of the Total Environment. 
+                DOI: <a href="https://doi.org/10.1016/j.scitotenv.2021.150952" target="_blank">10.1016/j.scitotenv.2021.150952</a> 
+            </div>
+            
+            <div class="publication-year">2020</div>
+
+            <div class="publication-entry">
+                Yacob T. Tesfaldet and Nji T. Ndeh.
+                "Chulalongkorn University Precautionary Measures Amid COVID-19 Outbreak." 
+                Journal of the Infectious Disease Association of Thailand 3.37: 1-11. 
+                DOI: <a href="https://www.idthai.org/2015/journal/index.php/journal/articles/816/fulltext" target="_blank">www.idthai.org/2015/journal</a> 
+            </div>
+            <div class="publication-entry">
+                Yacob T. Tesfaldet, Avirut Puttiwongrak, and Tanwa Arpornthip. 
+                "Spatial and temporal variation of groundwater recharge in shallow aquifer in the Thepkasattri of Phuket, Thailand." 
+                Journal of Groundwater Science and Engineering 8.1: 10-19. 
+                 DOI: <a href="http://dx.doi.org/10.19637/j.cnki.2305-7068.2020.01002" target="_blank">10.19637/j.cnki.2305-7068.2020.01002</a>
+            </div>
+            
+
+            <div class="publication-year">2019</div>
+
+            <div class="publication-entry">
+                Yacob T. Tesfaldet and Avirut Puttiwongrak.
+                "Seasonal Groundwater Recharge Characterization Using Time-Lapse Electrical Resistivity Tomography in the Thepkasattri Watershed on Phuket Island, Thailand." 
+                Hydrology 6.2: 36. 
+                DOI: <a href="https://doi.org/10.3390/hydrology6020036" target="_blank">10.3390/hydrology6020036</a> 
+            </div>
+            
+        </div>
+
+        <div class="publications">
+            <h1>Conferences</h1>
+            <div class="publication-year">2024</div>
+
+            <div class="publication-entry">
+                Yacob T. Tesfaldet and Penradee Chanpiwat
+                13th International Conference on Environmental Engineering, Science and Management at Pullman Khon Kaen Raja Orchid, Khon Kaen, Thailand
+                “Air pollution and hospital admissions for cardiopulmonary diseases using AirQ+ in Bangkok, Thailand”.
+            </div>
+            <div class="publication-entry">
+                Emerging Pollutants: Protecting Water Quality for the Health of People and the Environment. UNESCO-IWRA Online Conference: Participant. https://iwra.org/member/index.php?mainpage=&page=286&congressyear=2023&eventid=11.
+            </div>
+                                    
+        </div>
+
+        <div class="publication-year">2023</div>
+
+            <div class="publication-entry">
+                European Forum Alpbach (EFA23), Alpbach, Austria.
+                Attended seminar on Energy transition, climate justice, and diffusing carbon bomb. 
+                In addition, I have attended a research presentation on waste management and the use of AI for biodiversity conservation in national parks.
+.
+            </div>
+                                     
+        <div class="publication-year">2022</div>
+
+            <div class="publication-entry">
+                Anna Diem, Yacob T. Tesfaldet, Taly Hocherman, Vineeta Hoon, Karin Zijlemans. 
+                Marine litter in the Red Sea: Status and policy implications.
+                MICRO 2022, Online Atlas Edition: Plastic Pollution from MACRO to nano, online. https://doi.org/10.5281/zenodo.7216969.
+.
+            </div>
+                                    
+            <div class="publications">
+                <h1>Awards</h1>
+                <div class="publication-year"></div>
+
+                <div class="publication-entry">
+                    <li>Scholarship for Participation at the European Forum Alpbach 2023, Forum Alpbach Foundation, Austria.</li>
+                    <li>Scholarship for Studying PhD at Chulalongkorn University, 2019 - 2022.</li>
+                    <li>Clean and Green Campus Project. Certificate of Participation from Faculty of Technology and Environment, Prince of Songkla University, September 2019.</li>
+                    <li>First Prize in the Research Poster Competition. Prince of Songkla University Research and Poster Day April 2018.</li>
+                    <li>Outstanding Presenter in ESSAND Journal Club. Faculty of Technology and Environment, PSU, August 2017.</li>
+                    <li>Thailand International Cooperation Agency (TICA) scholarship for study MSc degree, 2017 – 2019.</li>
+                    <li>Bachelor of Science Graduate with Distinction, College of Science, Eritrea Institute of Technology, June 2014.</li>
+
+                </div>
+                
+                                        
+            </div>
+    
+                             
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-columns">
+                <div class="footer-section">
+                    <h2>Affiliation</h2>
+                    <div class="address">
+                        Hazardous Substance and Environmental Management<br>
+                        Chulalongkorn University<br>
+                        Pathum Wan, Wang Mai<br>
+                        10330 Bangkok - Thailand
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h2>Find Me</h2>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/yacob-t-tesfaldet-929521151/" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.co.th/citations?user=HSXZDDkAAAAJ&hl=en" title="Google Scholar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="https://orcid.org/0000-0002-3763-6913" title="ORCID">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                        <a href="https://github.com/jacobins3" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h2>CU LINKS</h2>
+                    <a href="http://www.iphsm.grad.chula.ac.th/">Hazardous Substance and Environmental Management</a>
+                    <a href="https://www.chula.ac.th/en/">Chulalongkorn University</a>
+                </div>
+            </div>
+
+            <div class="logo-section">
+                <img src="C:\Users\user\OneDrive - Chulalongkorn University\Research Idea\My Website\images\chula.png" 
+                alt="EAU" class="eau-logo">
+            </div>
+        </div>
+        <div class="copyright">
+            © 2024 Yacob T. Tesfaldet
+        </div>
+    </footer>
+</body>
+</html>
